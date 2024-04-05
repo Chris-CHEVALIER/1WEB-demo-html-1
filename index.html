@@ -6,73 +6,129 @@
     <meta name="description" content="Évolition d'Evoli de type eau" />
     <meta name="keywords" content="Acidarmure, Pokémon, Evoli, Aquali" />
     <title>Aquali</title>
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-    <style>
-      table,
-      th,
-      td {
-        border: 1px solid red;
-        border-collapse: collapse;
-      }
-    </style>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Aquali : Un Pokémon polyvalent</h1>
-    <h2>Sommaire</h2>
-    <ul>
-      <li><a href="#introduction">Présentation</a></li>
-      <li><a href="#images">Images</a></li>
-      <li><a href="#complements">Complément</a></li>
-    </ul>
+    <header>
+      <h1>Aquali : Un Pokémon polyvalent</h1>
+      <div class="nav">
+        <h2>Sommaire</h2>
+        <ul>
+          <li><a href="#introduction">Présentation</a></li>
+          <li><a href="#images">Images</a></li>
+          <li><a href="#complements">Complément</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars"></i>
+    </header>
     <hr />
-    <h2 id="introduction">Présentation</h2>
-    <p>
-      Lorem ipsum <b> dolor</b> sit amet consectetur adipisicing elit. Commodi
-      quis mollitia inventore? Id, sint odit reprehenderit architecto ipsam
-      inventore blanditiis <i>voluptate</i>! <br />
-      <br />
-      <br />
-      Animi ratione qui aspernatur quam. Adipisci obcaecati perspiciatis nobis!
-    </p>
-    <hr />
-    <h2 id="images">Images</h2>
-    <img
-      src="https://www.pokepedia.fr/images/thumb/6/6b/Aquali-RFVF.png/500px-Aquali-RFVF.png"
-      width="150px"
-      alt="Aquali"
-    />
-    <img width="200px" src="./images/aquali-shiny.png" alt="Aquali Shiny" />
-    <hr />
-    <h2 id="attacks">Attaques</h2>
-    <table style="width: 400px">
-      <tr>
-        <th>Nom</th>
-        <th>Niveau</th>
-        <th>Type</th>
-      </tr>
-      <tr>
-        <td>Hydrocanon</td>
-        <td>50</td>
-        <td>Eau</td>
-      </tr>
-      <tr>
-        <td>Damocles</td>
-        <td>43</td>
-        <td>Normal</td>
-      </tr>
-      <tr>
-        <td>Charme</td>
-        <td>1</td>
-        <td>Fée</td>
-      </tr>
-    </table>
-    <hr />
-    <h2 id="complements">Compléments</h2>
-    <a href="./about.html">À propos</a>
-    <a href="https://www.pokepedia.fr/Aquali" target="_blank">Poképédia</a>
-    <hr />
+    <main>
+      <section>
+        <h2 id="introduction">Présentation</h2>
+        <p>
+          Lorem ipsum <b> dolor</b> sit amet consectetur adipisicing elit.
+          Commodi quis mollitia inventore? Id, sint odit reprehenderit
+          architecto ipsam inventore blanditiis <i>voluptate</i>! <br />
+          <br />
+          <br />
+          Animi ratione qui aspernatur quam. Adipisci obcaecati perspiciatis
+          nobis!
+        </p>
+      </section>
+      <hr />
+      <section class="images-section">
+        <h2 id="images">Images</h2>
+        <div class="images-container">
+          <img
+            src="https://www.pokepedia.fr/images/thumb/6/6b/Aquali-RFVF.png/500px-Aquali-RFVF.png"
+            width="150px"
+            alt="Aquali"
+          />
+          <img
+            width="300px"
+            src="./images/aquali-shiny.png"
+            alt="Aquali Shiny"
+          />
+          <img
+            width="300px"
+            src="./images/aquali-shiny.png"
+            alt="Aquali Shiny"
+          />
+          <img
+            width="300px"
+            src="./images/aquali-shiny.png"
+            alt="Aquali Shiny"
+          />
+          <img
+            width="300px"
+            src="./images/aquali-shiny.png"
+            alt="Aquali Shiny"
+          />
+        </div>
+      </section>
+      <hr />
+      <section class="attacks-section">
+        <h2 id="attacks">Attaques</h2>
+        <table>
+          <tr>
+            <th>Nom</th>
+            <th>Niveau</th>
+            <th>Type</th>
+          </tr>
+          <tr>
+            <td>Hydrocanon</td>
+            <td>50</td>
+            <td>Eau</td>
+          </tr>
+          <tr>
+            <td>Damocles</td>
+            <td>43</td>
+            <td>Normal</td>
+          </tr>
+          <tr>
+            <td>Charme</td>
+            <td>1</td>
+            <td>Fée</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
 
-    <abbr title="Universation Charset Set">UTF</abbr>
-    <code>&lt;meta&gt;</code>
+      <video src="./videos/planet.mp4" autoplay muted loop>
+        Votre navigateur ne supporte pas la vidéo !
+      </video>
+      <audio src="./audios/file_example_MP3_700KB.mp3" controls>
+        Votre navigateur ne supporte pas la vidéo !
+      </audio>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/LOIz78oAeVM?si=wNFUbwAYmrqF2FrI"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+
+      <footer>
+        <h2 id="complements">Compléments</h2>
+        <a href="./about.html">À propos</a>
+        <a href="https://www.pokepedia.fr/Aquali" target="_blank">Poképédia</a>
+        <hr />
+
+        <abbr title="Universation Charset Set">UTF</abbr>
+        <code>&lt;meta&gt;</code>
+      </footer>
+    </main>
   </body>
 </html>
